@@ -1,0 +1,3 @@
+requests==2.18.4
+slackweb==1.0.5
+zappa==0.45.1

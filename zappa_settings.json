@@ -1,0 +1,20 @@
+{
+  "production": {
+    "apigateway_enabled": false,
+    "app_function": "fetchrss.request",
+    "aws_region": "ap-northeast-1",
+    "cloudwatch_log_level": "INFO",
+    "lambda_description": "Jaaxman function - fetchrss job request",
+    "log_level": "INFO",
+    "memory_size": 128,
+    "profile_name": "default",
+    "project_name": "jaaxman-lambda",
+    "runtime": "python3.6",
+    "s3_bucket": "jaaxman-production-infla",
+    "tags": {
+      "Project": "Jaaxman",
+      "Role": "InvokeJob"
+    },
+    "timeout_seconds": 300
+  }
+}
