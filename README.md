@@ -26,6 +26,8 @@ $ python function/fetchrss.py
 $ cp lambda_function_env.sample.json lambda_function_env.json
 
 $ vi lambda_function_env.json  #=> write credentials
+
+$ aws s3 cp lambda_function_env.json <Amazon S3 path>
 ```
 
 
