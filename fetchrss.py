@@ -36,7 +36,7 @@ def get_stage():
 def get_url():
     stage = get_stage()
 
-    return getenv('URL') if stage == 'fetchrss-production' else DEFAULT_URL
+    return getenv('URL') if stage == 'production' else DEFAULT_URL
 
 
 def lambda_handler():
