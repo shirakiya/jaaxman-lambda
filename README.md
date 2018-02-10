@@ -16,7 +16,7 @@ $ pip install -r requirements.txt
 
 ## Run
 ```
-$ python function/fetchrss.py
+$ python fetchrss.py
 ```
 
 
