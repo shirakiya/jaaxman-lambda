@@ -39,7 +39,7 @@ def get_url():
     return getenv('URL') if stage == 'fetchrss-production' else DEFAULT_URL
 
 
-def request():
+def lambda_handler():
     slack = get_slack()
 
     headers = get_headers()
@@ -62,4 +62,4 @@ def request():
 
 
 if __name__ == '__main__':
-    request()
+    lambda_handler()

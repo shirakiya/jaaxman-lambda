@@ -4,7 +4,7 @@
     "aws_region": "ap-northeast-1",
     "cloudwatch_log_level": "INFO",
     "events": [{
-      "function": "functions.fetchrss.request",
+      "function": "fetchrss.lambda_handler",
       "expression": "cron(05 21 * * ? *)"
     }],
     "keep_warm": false,

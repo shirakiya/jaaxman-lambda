@@ -2,7 +2,7 @@ import logging
 
 
 def get_logger():
-    logger = logging.getLogger('functinos')
+    logger = logging.getLogger('functions')
     logger.setLevel(logging.DEBUG)
 
     handler = logging.StreamHandler()
